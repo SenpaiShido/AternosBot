@@ -39,18 +39,18 @@ bot.on('login',function(){
 	   task(i); 
 	} 
 	console.log("Sukses Login")
-	bot.chat("Halo semua");
+	bot.chat("boo");
 });
   
 function task(i) { 
 	
   setTimeout(function() { 
     if(first == true){
-	bot.chat("Selamat datang di kos bewok.")
+	bot.chat("semoga hari mu suram")
 	first = false;
 	}
 	else{
-		bot.chat("semoga hari mu menyenangkan")
+		bot.chat("kalian semua sampah")
 		first = true;
 	}
   }, 3600000 * i); 
